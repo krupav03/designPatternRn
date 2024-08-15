@@ -26,7 +26,7 @@ function HomeScreen () {
                     <Text style={styles.buttonText}>{buttonNames?.HOC}</Text>
                 </TouchableOpacity>
 
-                <TouchableOpacity style={styles.singletonButton}>
+                <TouchableOpacity style={styles.singletonButton} onPress={() => navigation.navigate('Singleton')}>
                     <Text style={styles.buttonText}>{buttonNames?.Singleton}</Text>
                 </TouchableOpacity>
 

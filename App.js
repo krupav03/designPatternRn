@@ -4,6 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from './screens/HomeScreen';
 import ContainerPresenterScreen from './screens/ContainerPresenterScreen';
 import HOCScreen from './screens/HOCScreen';
+import SingleTonScreen from './screens/SingletonScreen';
 // Import other pattern screens here...
 
 const Stack = createStackNavigator();
@@ -15,6 +16,8 @@ const App = () => {
         <Stack.Screen name="Design Patterns" component={HomeScreen} />
         <Stack.Screen name="Container Presenter" component={ContainerPresenterScreen} />
         <Stack.Screen name="Higher Order Component" component={HOCScreen} />
+        <Stack.Screen name="Singleton" component={SingleTonScreen} />
+
 
         {/* Add other pattern screens here */}
       </Stack.Navigator>

@@ -4,7 +4,6 @@ import UserContainer from '../components/UserContainer';
 // import UserContainer from './components/UserContainer';  /
 
 const ContainerPresenterScreen = () => {
-    console.log('ppp')
   return (
     <SafeAreaView style={styles.container}>
       <UserContainer/>
