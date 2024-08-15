@@ -22,7 +22,7 @@ function HomeScreen () {
                     <Text style={styles.buttonText}>{buttonNames?.ContainerPresenter}</Text>
                 </TouchableOpacity>
 
-                <TouchableOpacity style={styles.hocButton}>
+                <TouchableOpacity style={styles.hocButton} onPress={() => navigation.navigate('Higher Order Component')}>
                     <Text style={styles.buttonText}>{buttonNames?.HOC}</Text>
                 </TouchableOpacity>
 
