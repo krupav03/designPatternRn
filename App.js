@@ -5,6 +5,8 @@ import HomeScreen from './screens/HomeScreen';
 import ContainerPresenterScreen from './screens/ContainerPresenterScreen';
 import HOCScreen from './screens/HOCScreen';
 import SingleTonScreen from './screens/SingletonScreen';
+import LoginPage from './screens/AtomScreen';
+import Profile from './screens/ComponentPositionScreen';
 // Import other pattern screens here...
 
 const Stack = createStackNavigator();
@@ -17,6 +19,8 @@ const App = () => {
         <Stack.Screen name="Container Presenter" component={ContainerPresenterScreen} />
         <Stack.Screen name="Higher Order Component" component={HOCScreen} />
         <Stack.Screen name="Singleton" component={SingleTonScreen} />
+        <Stack.Screen name="Atom" component={LoginPage} />
+        <Stack.Screen name="Component Position" component={Profile} />
 
 
         {/* Add other pattern screens here */}

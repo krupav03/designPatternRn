@@ -26,6 +26,16 @@ function HomeScreen () {
                     <Text style={styles.buttonText}>{buttonNames?.HOC}</Text>
                 </TouchableOpacity>
 
+
+                <TouchableOpacity style={styles.fpButton} onPress={() => navigation.navigate('Atom')}>
+                    <Text style={styles.buttonText}>{'Atom'}</Text>
+                </TouchableOpacity>
+                
+                <TouchableOpacity style={styles.fpButton} onPress={() => navigation.navigate('Component Position')}>
+                    <Text style={styles.buttonText}>{'Component Position'}</Text>
+                </TouchableOpacity>
+
+
                 <TouchableOpacity style={styles.singletonButton} onPress={() => navigation.navigate('Singleton')}>
                     <Text style={styles.buttonText}>{buttonNames?.Singleton}</Text>
                 </TouchableOpacity>
